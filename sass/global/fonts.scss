@@ -1,0 +1,50 @@
+@font-face {
+  font-weight: 400;
+  font-family: Tinos;
+  font-style: normal;
+
+  src: local("Tinos Regular"), local("Tinos-Regular"),
+  url("../../fonts/tinos-regular.woff") format("woff"),
+  url("../../fonts/tinos-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Alboroto;
+  font-style: normal;
+
+  src: local("Alboroto"), local("Alboroto Regular"), local("AlborotoRegular"),
+  url("../../fonts/alboroto.woff2") format("woff2"),
+  url("../../fonts/alboroto.woff") format("woff"),
+  url("../../fonts/alboroto.otf") format("opentype");
+}
+
+
+@font-face {
+  font-weight: 400;
+  font-family: Ukrainian Futuris;
+  font-style: normal;
+  src: url("../../fonts/nfuturis.eot") format("eot");
+  src: local("Ukrainian Futuris Regular"), local("Futuris Regular"),
+  url("../../fonts/nfuturis.woff2") format("woff2"),
+  url("../../fonts/nfuturis.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Futuris Bold";
+  font-style: normal;
+
+  //src: local("Ukrainian Futuris Bold"), local("Futuris Bold"),
+  src: url("../../fonts/bfuturis.ttf") format("ttf"),
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Futuris Italic";
+  font-style: normal;
+
+  src: local("Ukrainian Futuris Italic"), local("Futuris Italic"),
+  url("../../fonts/ifuturis.ttf") format("ttf"),
+}
+

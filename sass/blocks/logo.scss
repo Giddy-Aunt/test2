@@ -1,0 +1,25 @@
+.logo {
+
+  h1 {
+  margin: 0;
+  }
+}
+
+.logo_subtitle {
+  margin: 0;
+  text-transform: lowercase;
+  font-size: 14px;
+  display: none;
+}
+
+@media #{$tablet-widths} {
+	.logo_subtitle {
+		display: block;
+	}
+}
+
+@media #{$desktop-widths} {
+	.logo {
+		margin: 0 10px;
+	}
+}

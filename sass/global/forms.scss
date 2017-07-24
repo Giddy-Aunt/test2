@@ -1,0 +1,45 @@
+.text-field__input {
+  padding: 12px 20px;
+  display: block;
+  width: 100%;
+  font-family: "Ukrainian Futuris", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #36434c;
+  border: none;
+  box-shadow: inset 0px 0px 12px 3px rgba(0,0,0,0.2);
+
+  @include placeholder("Ukrainian Futuris", $bg-color);
+
+
+}
+
+.text-field {
+  display: flex;
+  flex-grow: 1;
+}
+
+.text-field--subscription {
+  .text-field__label {
+    font-size: 0;
+  }
+}
+
+.btn--subscription {
+  font-size: 0;
+  background-color: $color-red;
+  width: 70px;
+  height: 45px;
+  background-image: url("../img/icon-subscribe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover {
+    opacity: 0.7;
+  }
+  
+}
+
+.subscription__form {
+  display: flex;
+}
