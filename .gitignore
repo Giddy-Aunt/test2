@@ -6,5 +6,7 @@
 *.sublime*
 build/
 design/
+.publish/
+publish/
 node_modules/
 Thumbs.db
